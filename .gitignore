@@ -6,3 +6,12 @@ dist
 
 # Ignorer le electron-builder.yml
 electron-builder.yml
+
+# Ignorer le DSStore
+.DS_Store
+
+# Ignorer le package-lock
+package-lock.json
+
+# Ignorer le .env
+.env

@@ -1,6 +1,6 @@
 const { app } = require('electron')
 const AutoLaunch = require("auto-launch");
-const { autoUpdater } = require('electron-update')
+const { autoUpdater } = require('electron-updater')
 
 
 let autoLaunch = new AutoLaunch({
