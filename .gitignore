@@ -1,0 +1,8 @@
+# Ignorer le les modules
+node_modules
+
+# Ignorer le dossier dist
+dist
+
+# Ignorer le electron-builder.yml
+electron-builder.yml
