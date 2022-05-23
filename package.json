@@ -1,6 +1,6 @@
 {
     "name": "EDTRichPresence",
-    "version": "1.1.1",
+    "version": "1.1.3",
     "description": "Une application pour lancer un status Discord",
     "main": "main.js",
     "scripts": {

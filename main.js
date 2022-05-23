@@ -13,9 +13,12 @@ let autoLaunch = new AutoLaunch({
   });
 
 
-  app.on('ready', () => {
+app.on('ready', () => {
     require('./presence.js').main()
     autoUpdater.checkForUpdatesAndNotify()
+    if (process.platform == "darwin") {
+      app.dock.hide()
+    }
 });
 
 autoUpdater.on('update-available', () => {
