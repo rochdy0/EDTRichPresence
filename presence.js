@@ -11,7 +11,7 @@ function richPresence() {
             client.request('SET_ACTIVITY', {
                 pid: process.pid,
                 activity: {
-                    "details": "Coaching sportif gratuit",
+                    "details": "Programmes sportifs gratuits",
                     // emoji : {
                     // 		"id": "901498744976056381",
                     // 		"name": "LogoEDT",
