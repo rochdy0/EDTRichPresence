@@ -53,7 +53,7 @@ module.exports = {
         if (process.platform == "win32") {
             setInterval(function () {
             cp.exec(`tasklist /FI "ImageName eq Discord.exe"`, (err, stdout, stderr) => {
-                if (stdout[0] != "I") { richpresence() 
+                if (stdout[0] != "I") { richPresence() 
                     // fs.appendFileSync('./log.txt', (Date.now() + 'Lancement richePresence'))
                 }
             });

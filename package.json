@@ -1,14 +1,14 @@
 {
-    "name": "edtrichpresence",
-    "version": "1.0.1",
+    "name": "EDTRichPresence",
+    "version": "1.1.0",
     "description": "Une application pour lancer un status Discord",
     "main": "main.js",
     "scripts": {
-        "build":"electron-builder build --mac --win --publish never",
-        "deploy":"electron-builder build --mac --win --publish always",
+        "build":"electron-builder build --mac --win --x64 --arm64 --publish never",
+        "deploy":"electron-builder build --mac --win --x64 --arm64 --publish always",
         "test": "electron ."
     },
-    "author": "Zaldrizes'",
+    "author": "Zaldrizes",
     "license": "GPL-3.0",
     "repository": {
         "type": "git",
@@ -25,7 +25,7 @@
         "electron-updater": "^5.0.1"
     },
     "build":{
-        "appId": "com.edt.edtrichpresence",
+        "appId": "com.edt.EDTRichPresence",
         "mac": {
             "target": "dmg"
         },
